@@ -19,7 +19,7 @@ http.createServer(function(req,res){
         switch(path) {
 		case '':
 			res.writeHead(200, { 'Content-Type': 'text/html' });
- 		 	res.end('<html>Hello world!</html>');
+ 		 	res.end('<html>Hello world2!</html>');
 			break;
 		case '/about':
 			serveStaticFile(res, '/public/about.html', 'text/html');
